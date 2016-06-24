@@ -2,6 +2,10 @@
 
 import UIKit
 
+//: Playground - noun: a place where people can play
+
+import UIKit
+
 var keys = [String]()
 
 var values = [String]()
@@ -89,20 +93,3 @@ print("Test to make sure www.codefellows.com returns the same short link: \(link
 print("Test to make sure www.codefellows.com returns the same short link: \(linkRetriever(tester))")
 
 print("Test to make sure adding a new link pushes oldest link off queue: \(linkShortener("www.tidal.com")) \(linkDictionary) \(keys) \(values))")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
